@@ -1,3 +1,19 @@
 {
-    "presets": ["es2015", "react", "stage-1"]
+    "env": {
+        "production": {
+            "presets": ["es2015", "react", "stage-1"],
+            "ignore": [
+                "*.story.js"
+            ]
+        },
+        "development": {
+            "presets": ["es2015", "react", "stage-1"],
+            "ignore": [
+                "*.story.js"
+            ]
+        },
+        "test": {
+            "presets": ["es2015", "react", "stage-1"]
+        }
+    }
 }
