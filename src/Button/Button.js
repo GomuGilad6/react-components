@@ -51,9 +51,9 @@ const StyledButton = styled("div")`
   }
 `;
 
-const Button = () => (
+const Button = ({ text }) => (
   <StyledButton>
-    Press Me
+    {text}
   </StyledButton>
 );
 
